@@ -1,13 +1,9 @@
 # Mosite
 
----
-
 Mosite is To do list website and short for moment site.
 Mosite made using VanillaJS.
 
 ## Functions
-
----
 
 1. Dark mode toggle button
 2. Login
