@@ -8,14 +8,8 @@
   padding: 1.5rem;
 }
 
-.setting {
-  position: absolute;
-  top: 0.1px;
-  right: 0.1px;
-}
-
 .greeting {
-  height: 10rem;
+  height: 9rem;
   display: flex;
   width: auto;
   justify-content: center;
@@ -29,6 +23,10 @@
   font-weight: var(--font-semi-bold);
 }
 
+.clock {
+  height: 9rem;
+}
+
 .footer {
   position: absolute;
   bottom: 20px;
@@ -39,14 +37,13 @@
 
 .box {
   display: grid;
-  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-rows: 1fr;
   row-gap: 1.5rem;
 }
 
 .mini-box {
   display: flex;
   justify-content: space-between;
-  height: 28rem;
 }
 
 .greeting,
@@ -61,23 +58,14 @@
   box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
-.clock {
-  height: 11rem;
-}
-
-.weather {
-  width: 25rem;
-}
-
-.quote {
-  width: 25rem;
-}
-
+.weather,
+.quote,
 .news {
-  width: 25rem;
+  height: 21.5rem;
+  width: 18em;
 }
 
 .to-do {
   width: auto;
-  height: 52rem;
+  height: 42.5rem;
 }
