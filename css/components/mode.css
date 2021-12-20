@@ -1,0 +1,29 @@
+.mode {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--container-color);
+  border-radius: 50%;
+}
+
+.mode img {
+  fill: var(--orange);
+}
+
+.logout {
+  position: absolute;
+  top: 20px;
+  right: 70px;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--container-color);
+  border-radius: 50%;
+}

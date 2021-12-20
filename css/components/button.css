@@ -1,0 +1,32 @@
+#mac-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 4rem;
+  height: 1.3rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.close,
+.minimize,
+.maximize {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.close {
+  background-color: var(--red);
+}
+
+.minimize {
+  background-color: var(--yellow);
+}
+
+.maximize {
+  background-color: var(--green);
+}
+
+/* mosite btn */

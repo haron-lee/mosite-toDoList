@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 50rem;
+  height: 30rem;
+  background-color: var(--container-color);
+  padding: 5rem;
+  border-radius: var(--border);
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+}
+
+.red {
+  color: var(--red);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.green {
+  color: var(--green);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.red,
+.green,
+.yellow,
+.blue {
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-right: 0.1rem;
+}
+
+.space {
+  margin-right: 0.8rem;
+}
+
+.welcome-greeting {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.welcome-greeting span {
+  margin-bottom: 1rem;
+  font-size: var(--h2-font-size);
+  color: var(--text-color);
+}
+
+.login-form input {
+  border-bottom: 2px solid var(--purple);
+  font-size: var(--h1-font-size);
+  text-align: center;
+  padding-bottom: 0.3rem;
+  color: var(--purple);
+  background-color: var(--container-color);
+}
