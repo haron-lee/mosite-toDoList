@@ -3,6 +3,7 @@
 @import "components/mode.css";
 @import "components/button.css";
 @import "mosite.css";
+@import "components/logout.css";
 
 * {
   box-sizing: border-box;

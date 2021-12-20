@@ -1,7 +1,7 @@
-.mode {
+.logout {
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 70px;
   width: 2.5rem;
   height: 2.5rem;
   display: flex;
@@ -11,6 +11,10 @@
   border-radius: 50%;
 }
 
-.mode img {
-  fill: var(--orange);
+.menu-off {
+  display: none;
+}
+
+.menu-on {
+  display: block;
 }
