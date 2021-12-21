@@ -3,7 +3,7 @@
 @import "components/mode.css";
 @import "components/button.css";
 @import "mosite.css";
-@import "components/logout.css";
+@import "components/setting.css";
 
 * {
   box-sizing: border-box;
@@ -34,6 +34,7 @@ ul {
 
 a {
   text-decoration: none;
+  outline: none;
 }
 
 img {
