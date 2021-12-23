@@ -1,3 +1,5 @@
+"use strick";
+
 const darkModeBtn = document.querySelector(".mode");
 let settingDarkMode = localStorage.getItem("darkMode");
 

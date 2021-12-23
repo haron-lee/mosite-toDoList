@@ -1,5 +1,10 @@
 "use strick";
 
+history.pushState(null, null, location.href);
+window.onpopstate = function () {
+  history.go(1);
+};
+
 const greeting = document.querySelector(".greeting-text span");
 const loginForm = document.querySelector(".login-form");
 const loginInput = document.querySelector(".login-form input");
