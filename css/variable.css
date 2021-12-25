@@ -53,6 +53,8 @@
   --border: 1.2rem;
   --border-2: 2rem;
 
+  /* ========== Margin Padding ========== */
+  --box-padding: 20px 10px;
   /* ========== z index ========== */
   --z-tooltip: ;
   --z-fixed: ;

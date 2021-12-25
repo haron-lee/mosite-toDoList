@@ -12,15 +12,22 @@
   height: 9rem;
   display: flex;
   width: auto;
-  justify-content: center;
-  align-content: space-around;
-  padding: 30px 20px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: var(--box-padding);
 }
 
+/* calendar style 꾸미기 */
 .greeting-text {
   color: var(--text-color);
   font-size: var(--biggest-font-size);
   font-weight: var(--font-semi-bold);
+}
+
+.calendar {
+  font-size: var(--h1-font-size);
+  color: var(--yellow);
 }
 
 .clock {
@@ -61,13 +68,13 @@
 .weather,
 .quote,
 .news {
-  height: 21.5rem;
+  height: 22.5rem;
   width: 18em;
 }
 
 .to-do {
   width: auto;
-  height: 42.5rem;
+  height: 43.5rem;
 }
 
 @media screen and (min-width: 576px) {
