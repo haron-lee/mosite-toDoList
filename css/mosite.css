@@ -19,15 +19,11 @@
 }
 
 /* calendar style 꾸미기 */
-.greeting-text {
+.greeting-text,
+.calendar {
   color: var(--text-color);
   font-size: var(--biggest-font-size);
   font-weight: var(--font-semi-bold);
-}
-
-.calendar {
-  font-size: var(--h1-font-size);
-  color: var(--yellow);
 }
 
 .clock {
