@@ -1,0 +1,22 @@
+.clock {
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.clock-box {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 4rem;
+  color: var(--text-color);
+  font-family: "yg-jalnan";
+}
+
+.clock-box > * {
+  margin-right: 30px;
+  text-shadow: var(--dark-mode) inset;
+}
