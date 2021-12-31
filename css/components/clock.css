@@ -12,11 +12,16 @@
   align-items: center;
   text-align: center;
   font-size: 4rem;
-  color: var(--text-color);
-  font-family: "yg-jalnan";
+  color: var(--clock-text);
+  font-family: "GmarketSansBold";
 }
 
 .clock-box > * {
   margin-right: 30px;
-  text-shadow: var(--dark-mode) inset;
+  text-shadow: 5px 5px var(--clock-shadow);
+}
+
+.colon {
+  color: var(--text-color);
+  font-size: var(--biggest-font-size);
 }
