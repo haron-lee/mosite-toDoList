@@ -10,8 +10,8 @@
   --orange: #ffa451;
   --purple: #944aa0;
   --dark-mode: #393e46;
-  --clock-text: #5b5e63;
-  --clock-shadow: #14a4cf;
+  --clock-text: #676a6e;
+  --clock-shadow: #8ecae6;
 }
 
 .dark {
@@ -24,8 +24,8 @@
   --orange: #ffa451;
   --purple: white;
   --dark-mode: #393e46;
-  --clock-text: #14a4cf;
-  --clock-shadow: #5b5e63;
+  --clock-text: #8ecae6;
+  --clock-shadow: #676a6e;
 }
 
 :root {

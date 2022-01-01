@@ -17,11 +17,17 @@
 }
 
 .clock-box > * {
-  margin-right: 30px;
+  margin-right: 40px;
   text-shadow: 5px 5px var(--clock-shadow);
 }
 
 .colon {
   color: var(--text-color);
   font-size: var(--biggest-font-size);
+}
+
+.clock svg {
+  color: var(--clock-text);
+  filter: drop-shadow(3px 3px var(--clock-shadow));
+  margin-right: 80px;
 }
