@@ -1,3 +1,5 @@
+"use strick";
+
 const hoursClock = document.querySelector(".hours span");
 const minutesClock = document.querySelector(".minutes span");
 const secondsClock = document.querySelector(".seconds span");
