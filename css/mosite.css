@@ -48,8 +48,8 @@
 .greeting,
 .clock,
 .weather,
+.weather-list,
 .quote,
-.news,
 .to-do {
   background-color: var(--container-color);
   border-radius: 10px;
@@ -59,7 +59,7 @@
 
 .weather,
 .quote,
-.news {
+.weather-list {
   height: 22.5rem;
   width: 18em;
 }

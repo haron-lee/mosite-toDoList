@@ -1,0 +1,22 @@
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.weather-text {
+  color: var(--text-color);
+  font-size: var(--h1-font-size);
+}
+
+.weather-main {
+  color: var(--text-color);
+  font-size: var(--h2-font-size);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}

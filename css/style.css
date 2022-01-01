@@ -6,6 +6,7 @@
 @import "components/setting.css";
 @import "Components/popup.css";
 @import "components/clock.css";
+@import "components/weather.css";
 
 /* fonts */
 @font-face {
