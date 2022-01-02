@@ -14,9 +14,12 @@ const onGeoSuccess = (position) => {
       const weatherTemp = document.querySelector(
         ".weather-main span:last-child"
       );
-      const weatherIcon = document.querySelector(".weather-icon");
+      const weatherIconImg = document.querySelector(".weather-icon img");
+      const weatherIcon = data.weather[0].icon;
+      const weatherIconUrl = `http://openweathermap.org/img/wn/${weatherIcon}@2x.png`;
 
       city.innerText = data.name;
+      weatherIconImg.setAttribute("src", weatherIconUrl);
       weather.innerText = data.weather[0].main;
       weatherTemp.innerText = `${Math.floor(data.main.temp)}°`;
     });

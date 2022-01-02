@@ -3,17 +3,17 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 .weather-text {
   color: var(--text-color);
-  font-size: var(--h1-font-size);
+  font-size: var(--biggest-font-size);
 }
 
 .weather-main {
   color: var(--text-color);
-  font-size: var(--h2-font-size);
+  font-size: var(--h1-font-size);
   display: flex;
   flex-direction: column;
   justify-content: center;
