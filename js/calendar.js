@@ -1,7 +1,6 @@
 "use strick";
 
 const calendarText = document.querySelector(".calendar span");
-const dateTest = new Date(Date.UTC(2021, 11, 24));
 
 function getCalendar() {
   const calendar = new Date();
