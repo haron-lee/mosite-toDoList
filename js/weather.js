@@ -74,8 +74,3 @@ const onGeoError = () => {
 };
 
 navigator.geolocation.getCurrentPosition(onGeoSuccess, onGeoError);
-
-// api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
-// 36.6116044 127.4903614
-// https://api.openweathermap.org/data/2.5/forecast?lat=36.6116044&lon=127.4903614&appid=995e8ef20ddbb04958f309c8dbebc038
-// https://api.openweathermap.org/data/2.5/onecall?lat=36.6116044&lon=127.4903614&units=metric&exclude=hourly,minutely&appid=995e8ef20ddbb04958f309c8dbebc038
