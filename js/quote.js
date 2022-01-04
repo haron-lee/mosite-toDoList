@@ -37,7 +37,11 @@ const quotes = [
   },
 ];
 
-const quote = document.querySelector(".quote span");
-const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+function getRandom() {
+  const quote = document.querySelector(".quote span");
+  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
-quote.innerText = randomQuote.quote;
+  quote.innerText = randomQuote.quote;
+}
+
+setInterval(getRandom, 5000);
