@@ -64,11 +64,6 @@
   width: 18em;
 }
 
-.to-do {
-  width: auto;
-  height: 43.5rem;
-}
-
 @media screen and (min-width: 576px) {
   /* 스마트폰 가로 */
 }

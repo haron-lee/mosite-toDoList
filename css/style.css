@@ -8,6 +8,7 @@
 @import "components/clock.css";
 @import "components/weather.css";
 @import "components/quote.css";
+@import "components/todo.css";
 
 /* fonts */
 @font-face {
