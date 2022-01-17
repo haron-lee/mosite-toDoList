@@ -17,35 +17,23 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-}
-
-.todo-list li {
-  margin-bottom: 6px;
-}
-
-.todo-box li {
-  margin-left: 10px;
   cursor: pointer;
-  position: relative;
-  transition: 0.2s;
-  color: var(--text-color);
 }
 
-.todo-box li:hover {
-  background-color: var(--line-background);
-}
-
-.todo-box li.checked {
-  background-color: var(--li-background);
-  text-decoration: line-through;
+.new-todo:hover {
+  background-color: var(--todo-hover);
+  border-radius: 10px;
 }
 
 .new-todo {
+  margin-bottom: 6px;
   color: var(--text-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  padding: 0 10px;
+  user-select: none;
 }
 
 .input-box {
@@ -87,6 +75,12 @@ input[type="checkbox"]:checked {
 input[type="checkbox"]:checked::after {
   display: block;
 }
+
 .delete {
   color: var(--text-color);
+}
+
+.checked {
+  text-decoration: line-through;
+  color: var(--checked);
 }
