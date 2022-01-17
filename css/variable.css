@@ -12,6 +12,8 @@
   --dark-mode: #393e46;
   --clock-text: #676a6e;
   --clock-shadow: #8ecae6;
+  --li-background: #dbdbdb;
+  --checkbox: #faeacc;
 }
 
 .dark {
@@ -26,6 +28,8 @@
   --dark-mode: #393e46;
   --clock-text: #8ecae6;
   --clock-shadow: #676a6e;
+  --li-background: #535a64;
+  --checkbox: #fff;
 }
 
 :root {
