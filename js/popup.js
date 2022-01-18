@@ -24,7 +24,7 @@ function closePopup() {
 }
 
 function userLogout() {
-  localStorage.removeItem("username");
+  localStorage.clear();
   // url 변경필요
   location.replace("http://127.0.0.1:5500/index.html");
 }
