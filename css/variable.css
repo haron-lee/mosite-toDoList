@@ -16,6 +16,7 @@
   --checkbox: #faeacc;
   --checked: #b1b1b1;
   --todo-hover: rgb(233, 233, 233);
+  --placeholder: rgb(190, 189, 189);
 }
 
 .dark {
@@ -34,6 +35,7 @@
   --checkbox: #fff;
   --checked: #8b8b8b;
   --todo-hover: #484f58;
+  --placeholder: #6b7581;
 }
 
 :root {

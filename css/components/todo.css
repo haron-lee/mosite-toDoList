@@ -7,9 +7,14 @@
 
 #todo-input {
   padding: 10px 10px 10px 0;
-  margin: 15px 0;
-  font-size: var(--h3-font-size);
+  margin: 15px 8px;
+  font-size: var(--h2-font-size);
   color: var(--text-color);
+  caret-color: var(--yellow);
+}
+
+#todo-input::placeholder {
+  color: var(--placeholder);
 }
 
 .todo-list {
