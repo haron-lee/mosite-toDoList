@@ -45,4 +45,6 @@
   border-radius: 10px;
   padding: 5px 20px;
   font-size: var(--h3-size);
+  color: var(--text-color);
+  background-color: var(--popup);
 }

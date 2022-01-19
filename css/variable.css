@@ -17,6 +17,7 @@
   --checked: #b1b1b1;
   --todo-hover: rgb(233, 233, 233);
   --placeholder: rgb(190, 189, 189);
+  --popup: rgb(245, 243, 243);
 }
 
 .dark {
@@ -36,6 +37,7 @@
   --checked: #8b8b8b;
   --todo-hover: #484f58;
   --placeholder: #6b7581;
+  --popup: #494f5a;
 }
 
 :root {
