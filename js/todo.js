@@ -19,7 +19,7 @@ function deleteToDo(event) {
   saveToDo();
 }
 
-function toDoChecked(event) {
+function handleCheck(event) {
   const input = event.target;
   const div = input.parentNode;
   div.classList.toggle("checked");
@@ -34,7 +34,7 @@ function paintToDo(newTodo) {
   const input = document.createElement("input");
   input.setAttribute("id", "cb");
   input.setAttribute("type", "checkbox");
-  input.addEventListener("click", toDoChecked);
+  input.addEventListener("click", handleCheck);
   const span = document.createElement("span");
   span.innerText = newTodo.text;
   const btn = document.createElement("button");
