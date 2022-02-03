@@ -8,6 +8,13 @@
   padding: 1rem;
 }
 
+.box {
+  display: grid;
+  grid-template-rows: 1fr;
+  row-gap: 1.5rem;
+  margin-top: 12px;
+}
+
 .greeting {
   height: 9rem;
   display: flex;
@@ -18,7 +25,14 @@
   padding: var(--box-padding);
 }
 
-/* calendar style 꾸미기 */
+.clock {
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
 .greeting-text,
 .calendar {
   color: var(--text-color);
@@ -26,24 +40,16 @@
   font-weight: var(--font-semi-bold);
 }
 
-.footer {
-  position: absolute;
-  bottom: 20px;
-  right: 45%;
-  color: var(--container-color);
-  font-size: var(--smaller-font-size);
-}
-
-.box {
-  display: grid;
-  grid-template-rows: 1fr;
-  row-gap: 1.5rem;
-  margin-top: 12px;
-}
-
 .mini-box {
   display: flex;
   justify-content: space-between;
+}
+
+.to-do {
+  width: auto;
+  height: 43.5rem;
+  padding: 40px 30px;
+  margin-top: 10px;
 }
 
 .greeting,
@@ -65,17 +71,162 @@
   width: 18em;
 }
 
-@media screen and (min-width: 576px) {
-  /* 스마트폰 가로 */
+.footer {
+  position: absolute;
+  bottom: 20px;
+  right: 45%;
+  color: var(--container-color);
+  font-size: var(--smaller-font-size);
 }
 
-@media screen and (min-width: 768px) {
-  /* 타블렛 */
-}
-@media screen and (min-width: 992px) {
-  /* 데스크탑 */
+@media screen and (max-width: 576px) {
+  .mosite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    padding-top: 2rem;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .greeting-text,
+  .calendar {
+    color: var(--text-color);
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+  }
+
+  .greeting {
+    height: 9rem;
+    width: 29rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: var(--box-padding);
+  }
+
+  .clock {
+    height: 9rem;
+    width: 29rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 10px 10px 5.5rem;
+  }
+
+  .mini-box {
+    display: none;
+  }
+
+  .to-do {
+    width: 29rem;
+    height: 40rem;
+    padding: 40px 30px;
+    margin-top: 10px;
+  }
 }
 
-@media screen and (min-width: 1200px) {
-  /* 큰 데스크탑 */
+@media (min-width: 576px) and (max-width: 992px) {
+  .mosite {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+  }
+
+  .box {
+    display: grid;
+    grid-template-rows: 4fr 6fr;
+    height: 85%;
+  }
+
+  .greeting {
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: var(--box-padding);
+  }
+
+  .clock {
+    height: 11rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 10px 10px 7rem;
+  }
+
+  .to-do {
+    width: auto;
+    height: 45rem;
+    padding: 40px 30px;
+    margin-top: 15px;
+  }
+
+  .weather,
+  .quote {
+    height: 23rem;
+    width: 17em;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .mosite {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+  }
+
+  .box {
+    display: grid;
+    grid-template-rows: 4fr 6fr;
+    margin-top: 12px;
+    height: 85%;
+  }
+
+  .greeting {
+    height: 11rem;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: var(--box-padding);
+  }
+
+  .clock {
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .to-do {
+    width: auto;
+    height: 51rem;
+    padding: 40px 30px;
+    margin-top: 15px;
+  }
+
+  .weather,
+  .quote,
+  .weather-list {
+    height: 26rem;
+    width: 22em;
+  }
 }
