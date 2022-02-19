@@ -26,7 +26,7 @@ function closePopup() {
 function userLogout() {
   localStorage.clear();
   // url 변경필요
-  location.replace("http://127.0.0.1:5500/index.html");
+  location.replace("https://haron-lee.github.io/mosite-todolist/");
 }
 
 yesBtn.addEventListener("click", userLogout);
