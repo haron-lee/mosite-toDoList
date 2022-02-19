@@ -1,10 +1,10 @@
+@import "mosite.css";
 @import "variable.css";
 @import "welcome.css";
+@import "Components/popup.css";
 @import "components/mode.css";
 @import "components/button.css";
-@import "mosite.css";
 @import "components/setting.css";
-@import "Components/popup.css";
 @import "components/clock.css";
 @import "components/weather.css";
 @import "components/quote.css";
